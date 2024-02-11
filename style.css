@@ -1,0 +1,64 @@
+
+nav.menu-nav ul li.btn{
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav.menu-nav ul li.btn a{
+    color: white;
+    text-decoration: none;
+    background-color: green;
+    padding: 10px; 
+}
+
+nav.menu-nav ul li.btn:hover a{
+    color: green;
+    background-color: white;
+    transition: 0.3s all;
+}
+
+body{
+    background: url(./bg.jpg) center/cover;
+    min-height: 100vh;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.footer-links, .contact-info {
+    flex: 1;
+}
+
+.footer-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact-info h3 {
+    margin-top: 0;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.contact-info p {
+    line-height: 0.5; /* Vous pouvez ajuster cette valeur selon vos besoins */
+}
